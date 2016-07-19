@@ -1,0 +1,22 @@
+language: java
+
+java:
+- 1.7.0
+- 1.8.0
+
+script:
+- JUnit Test.Test_Variance.test_variance_1.java
+- JUnit Test.Test_Variance.test_variance_2.java
+- JUnit Test.Test_Variance.test_variance_3.java
+- JUnit Test.Test_Correlation.test_correlation_1.java
+- JUnit Test.Test_Correlation.test_correlation_2.java
+- JUnit Test.Test_Correlation.test_correlation_3.java
+- JUnit Test.Test_RegressionLin.test_regressionLin_1.java
+- JUnit Test.Test_RegressionLin.test_regressionLin_2.java
+- JUnit Test.Test_RegressionLin.test_regressionLin_3.java
+- JUnit Test.Test_EffortNote.test_effortNote_1.java
+- JUnit Test.Test_EffortNote.test_effortNote_2.java
+- JUnit Test.Test_EffortNote.test_effortNote_3.java
+- JUnit Test.Test_IntervalleConf.test_intervalleConf_1.java
+- JUnit Test.Test_IntervalleConf.test_intervalleConf_2.java
+- JUnit Test.Test_IntervalleConf.test_intervalleConf_3.java
